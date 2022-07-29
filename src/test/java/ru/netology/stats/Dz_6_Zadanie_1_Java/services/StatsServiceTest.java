@@ -20,7 +20,7 @@ public class StatsServiceTest {
     public void shouldFindAverageSales() {
         StatsService service = new StatsService();
 
-        int expected = -999;
+        int expected = 15;
         int actual = service.averageSales(sales);
 
         Assertions.assertEquals(expected, actual);
@@ -65,5 +65,4 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
 }
