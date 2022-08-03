@@ -3,10 +3,10 @@ package ru.netology.stats.Dz_6_Zadanie_1_Java.services;
 import java.util.Arrays;
 
 public class StatsService {
-    long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+    //long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
     // 1 Метод ниже считает сумму всех продаж
-    public int totalSales(long[] sales) {
+    public long totalSales(long[] sales) {
         int total = 0;
         for (int i = 0; i < sales.length; i++) {
             total = (int) (total + sales[i]);
